@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: #000000;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li:hover {
+  border-bottom: #E81616 1px solid;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  background-image: url("/src/assets/welcome.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home::before {
+  content: "";
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: #0000003b;
+  backdrop-filter: blur(2px);
+}
+
+.home h1 {
+  font-family: "Cormorant SC", serif;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 190px;
+  z-index: 1;
+}
+
+.book-button {
+  background-color: #F8F3F3;
+  color: #000000;
+  font-weight: 400;
+  padding: 15px 40px 15px 40px;
+  z-index: 1;
+}
+
+.bg-section {
+  background-color: #1A1919;
+  color: #ffffff;
+}
+
+.images-home-section {
+  position: relative;
+}
+
+.images-home-section h4 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.images-home-section h4::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 1px;
+  background-color: #E81616;
+}
+
+.images-home-section:nth-child(3) {
+  mask-image: linear-gradient(black 85%, transparent);
+}
+
+footer h4 {
+  font-family: "Cormorant SC", serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+footer b {
+  font-weight: 400;
+}
