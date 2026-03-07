@@ -1,16 +1,13 @@
-# React + Vite
+# About
+Planned design of a hotel website, for educational purposes and to showcase skills, without any intention of conveying veracity. Its sole purpose is clearly as a portfolio project and not as a real business/website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It features a variety of sections and animations. Elegant and understated design.
 
-Currently, two official plugins are available:
+# Figma
+Its design was created and planned using Figma. You can see it at the following link: https://www.figma.com/proto/oaZ38kECQh8Hfrs0iZjF8r/Hotel-page?node-id=1-2&p=f&t=9g3vqsj78MaPeD8d-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Technologies
+The following technologies were used: React (and React Router v7) and Tailwind CSS.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Deploye
+This page is located on Vercel: https://cliff-hotel.vercel.app/
