@@ -9,5 +9,5 @@ Its design was created and planned using Figma. You can see it at the following 
 # Technologies
 The following technologies were used: React (and React Router v7) and Tailwind CSS.
 
-# Deploye
+# Deployed to
 This page is located on Vercel: https://cliff-hotel.vercel.app/
