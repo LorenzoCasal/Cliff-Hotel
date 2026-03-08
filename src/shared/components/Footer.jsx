@@ -2,15 +2,15 @@ import { images } from '../utils/images';
 
 export default function Footer() {
     return (
-        <footer className="bg-black text-white w-full flex flex-row flex-wrap place-content-between">
-            <div className='flex flex-row flex-wrap items-center'>
-                <img src={images.logosinfondo} alt="" className="w-auto ml-10" />
-                <aside>
-                    <h4 className="text-9xl block">Cliff Hotel</h4>
-                    <p className='w-3xl opacity-80'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dicta. Asperiores quaerat quae aperiam, voluptatem vitae ipsum odio minima magni.</p>
+        <footer className="bg-black text-white w-full flex flex-row flex-wrap justify-between">
+            <div className='w-3/4 flex flex-row max-md:flex-wrap items-center max-md:justify-center gap-20 max-xl:w-full py-32'>
+                <img src={images.logosinfondo} alt="" className="w-auto ml-20 max-md:ml-0" />
+                <aside className='w-3xl max-md:text-center'>
+                    <h4 className="text-[clamp(4rem,5vw,10rem)] block">Cliff Hotel</h4>
+                    <p className=' opacity-80'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, dicta. Asperiores quaerat quae aperiam, voluptatem vitae ipsum odio minima magni.</p>
                 </aside>
             </div>
-            <div className="bg-white h-auto w-auto flex flex-col gap-5 fill-black text-black px-20 py-6 ">
+            <div className="bg-white w-auto flex flex-col gap-5 fill-black text-black place-content-center px-20 max-2xl:py-6 max-2xl:w-screen">
                 <b className="text-5xl">Socials</b>
                 <a href="">
                     <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" className="w-7 inline mr-3"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 7.35 9.101 11.647Z" /></svg>Cliff Hotel

@@ -22,11 +22,6 @@ a {
   color: inherit;
 }
 
-li:hover {
-  border-bottom: #E81616 1px solid;
-  padding: 0;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -36,8 +31,9 @@ body {
 .home {
   background-image: url("/src/assets/welcome.png");
   background-repeat: repeat-x;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  position: relative;
   height: 100vh;
   display: flex;
   flex-flow: column nowrap;
@@ -58,21 +54,25 @@ body {
   font-family: "Cormorant SC", serif;
   font-weight: 400;
   line-height: 1;
-  font-size: 190px;
+  margin-bottom: 50px;
+  font-size: clamp(8rem,12vw,12rem);
   z-index: 1;
 }
 
 .book-button {
+  position: absolute;
+  bottom: 10%;
   background-color: #F8F3F3;
   color: #000000;
   font-weight: 400;
   padding: 15px 40px 15px 40px;
+  transition: all 300ms;
+  cursor: pointer;
   z-index: 1;
 }
 
-.bg-section {
-  background-color: #1A1919;
-  color: #ffffff;
+.book-button:hover {
+  filter: brightness(1.1);
 }
 
 .images-home-section {
