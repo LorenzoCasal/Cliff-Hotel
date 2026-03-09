@@ -6,6 +6,7 @@ import solarium from '../../assets/solarium.png';
 import winecellar from '../../assets/winecellar.png';
 import logo from '../../assets/logo.png';
 import logosinfondo from '../../assets/logosinfondo.png';
+import threshold from '../../assets/threshold.png';
 
 
-export const images = {cooking, garden, golfcamp, reception, solarium, winecellar, logo, logosinfondo};
+export const images = {cooking, garden, golfcamp, reception, solarium, winecellar, logo, logosinfondo, threshold};

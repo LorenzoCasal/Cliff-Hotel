@@ -41,11 +41,11 @@ export default function Home() {
                 <img src={images.garden} alt="" className='w-full block' />
                 <h4 className='border-b-red-500 absolute'>Natural Garden</h4>
             </div>
-            <div className='images-home-section'>
+            <div className='images-home-section text-center'>
                 <img src={images.golfcamp} alt="" className='w-full block' />
                 <h4 className='border-b-red-500 absolute'>Golf Camp</h4>
             </div>
-            <div className='images-home-section'>
+            <div className='images-home-section text-center'>
                 <img src={images.solarium} alt="" className='w-full block' />
                 <h4 className='border-b-red-500 absolute'>Solarium</h4>
             </div>
