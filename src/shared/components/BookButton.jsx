@@ -1,5 +1,5 @@
-export default function BookButton() {
+export default function BookButton({clase}) {
     return (
-        <button className="book-button">BOOK NOW</button>
+        <button className={`${clase}`}>BOOK NOW</button>
     )
 }
