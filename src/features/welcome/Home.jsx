@@ -7,7 +7,7 @@ export default function Home() {
             <div className="home">
                 <h1 className="text-white">Cliff<br />
                     Hotel</h1>
-                <BookButton clase="book-button"/>
+                <BookButton url="/Book" clase="book-button"/>
             </div>
         </main>
 
@@ -31,7 +31,7 @@ export default function Home() {
                     <h2 className='text-[clamp(4rem,4vw,5rem)] leading-15 mb-5'>Discover our rooms</h2>
                     <p className='mb-10 text-xl max-2xl:text-base'>Explore our selection of premium rooms and suites. With high-end amenities and a design focused on functionality and comfort, we offer the ideal space to disconnect from the world. Immerse yourself in the exclusivity of Cliff Hotel and discover why we are the preferred destination for those seeking quality and distinction.</p>
                     <p className='mb-40 text-xl max-2xl:text-base'>Each suite has been meticulously appointed to exceed your expectations. From premium textures to cutting-edge technology, we've created the perfect environment where luxury and privacy meet in perfect harmony.</p>
-                    <BookButton clase="book-button" />
+                    <BookButton url="/Rooms" clase="book-button" />
                 </aside>
             </article>
         </section>

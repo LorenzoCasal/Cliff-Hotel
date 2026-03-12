@@ -16,33 +16,33 @@ export default function Services() {
                         <img src={images.spa} alt="SPA picture" className='w-sm border' />
                         <div className='absolute bg-black w-full py-5 bottom-0 border'>
                             <h2 className='text-3xl'>Luxury SPA</h2>
-                            <Link to="/SPA" className='hover:text-red-600'>Read more ⟶</Link>
+                            <Link to="/SPA" className='hover:text-red-600'>Explore ⟶</Link>
                         </div>
                     </article>
                     <article className='w-auto pb-5 relative text-white flex flex-col flex-wrap items-center justify-left max-lg:justify-center gap-5 '>
                         <img src={images.finedining} alt="Fine Dining picture" className='w-sm border' />
                         <div className='absolute bg-black w-full py-5 bottom-0 border'>
                             <h2 className='text-3xl'>FIne Dining</h2>
-                            <Link to="/FineDining" className='hover:text-red-600'>Read more ⟶</Link>
+                            <Link to="/FineDining" className='hover:text-red-600'>Explore ⟶</Link>
                         </div>
                     </article>
                     <article className='w-auto pb-5 relative text-white flex flex-col flex-wrap items-center justify-left max-lg:justify-center gap-5 '>
                         <img src={images.airport} alt="Airport Transfer picture" className='w-sm border' />
                         <div className='absolute bg-black w-full py-5 bottom-0 border'>
                             <h2 className='text-3xl'>Airport Transfer</h2>
-                            <Link to="/AirportTransfer" className='hover:text-red-600'>Read more ⟶</Link>
+                            <Link to="/AirportTransfer" className='hover:text-red-600'>Explore ⟶</Link>
                         </div>
                     </article>
                     <article className='w-auto pb-5 relative text-white flex flex-col flex-wrap items-center justify-left max-lg:justify-center gap-5 '>
                         <img src={images.fitness} alt="Fitness Center picture" className='w-sm border' />
                         <div className='absolute bg-black w-full py-5 bottom-0 border'>
                             <h2 className='text-3xl'>Fitness Center</h2>
-                            <Link to="/FitnessCenter" className='hover:text-red-600'>Read more ⟶</Link>
+                            <Link to="/FitnessCenter" className='hover:text-red-600'>Explore ⟶</Link>
                         </div>
                     </article>
-
-
                 </div>
+
+                
 
             </section>
 
@@ -55,12 +55,12 @@ export default function Services() {
                     <article className='bg-black text-white w-auto pb-5 flex flex-col flex-wrap items-center justify-left max-lg:justify-center gap-5 '>
                         <img src={images.nightclub} alt="Night Club picture" className='w-sm' />
                         <h2 className='text-3xl'>Night Club</h2>
-                        <Link to="/NightClub" className='hover:text-red-600'>Read more ⟶</Link>
+                        <Link to="/NightClub" className='hover:text-red-600'>Explore ⟶</Link>
                     </article>
                     <article className='bg-black text-white w-auto pb-5 flex flex-col flex-wrap items-center justify-left gap-5  '>
                         <img src={images.grandhall} alt="The Grand Hall picture" className='w-sm' />
                         <h2 className='text-3xl'>The Grand Hall</h2>
-                        <Link to="/TheGrandHall" className='hover:text-red-600'>Read more ⟶</Link>
+                        <Link to="/TheGrandHall" className='hover:text-red-600'>Explore ⟶</Link>
                     </article>
                 </div>
             </section>

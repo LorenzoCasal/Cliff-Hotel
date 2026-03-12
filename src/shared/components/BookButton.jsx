@@ -1,5 +1,7 @@
-export default function BookButton({clase}) {
+import { Link } from "react-router";
+
+export default function BookButton({url, clase}) {
     return (
-        <button className={`${clase}`}>BOOK NOW</button>
+        <Link to={`${url}`} className={`${clase}`}>BOOK NOW</Link>
     )
 }
