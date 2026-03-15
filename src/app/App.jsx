@@ -4,6 +4,7 @@ import Home from '../features/welcome/Home';
 import Hotel from '../features/hotel/Hotel';
 import Services from '../features/services/Services';
 import Rooms from '../features/rooms/Rooms';
+import AvailabilitySearch from '../features/rooms/book/AvailabilitySearch';
 import Book from '../features/rooms/book/Book';
 import Footer from '../shared/components/Footer';
 import ScrollReset from '../shared/utils/ScrollReset';
@@ -18,7 +19,8 @@ export default function App() {
           <Route path='/Hotel' element={<Hotel />} />
           <Route path='/Services' element={<Services />} />
           <Route path='/Rooms' element={<Rooms />} />
-          <Route path='/Book' element={<Book />} />
+          <Route path='/Availability' element={<AvailabilitySearch />} />
+          <Route path='/Availability/Book' element={<Book />} />
         </Routes>
         <Footer />
     </BrowserRouter >

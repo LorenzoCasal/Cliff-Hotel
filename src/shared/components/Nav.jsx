@@ -19,7 +19,7 @@ export default function Nav() {
                 <li><NavLink to="/SPA">SPA</NavLink></li>
                 <li><NavLink to="/Contact">Contact</NavLink></li>
             </ul>
-            <BookButton url="/Book" clase="book-nav mr-5 max-md:hidden" />
+            <BookButton url="/Availability" clase="book-nav mr-5 max-md:hidden" text="BOOK NOW"/>
         </nav>
     )
 }

@@ -1,7 +1,5 @@
-export default function Book ({room}) {
+export default function Book() {
     return <>
-        <main>
-            
-        </main>
+    <h1></h1>
     </>
 }
