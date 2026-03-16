@@ -11,8 +11,8 @@ export default function AvailabilitySearch({ room }) {
                     <p className='text-xl text-black max-lg:text-amber-300 mb-10'>Book your dream experience.</p>
                 </header>
                 <form className="availability-form text-md border border-white py-10 px-10 flex flex-row flex-wrap justify-center items-center gap-5">
-                    <input type="date" min={date} className='input' />
-                    <input type="date" max="01/01/2027" className='input' />
+                    <input type="date" min={date} placeholder="MM/DD/YYYY" className='input' />
+                    <input type="date" max="01/01/2027" placeholder="MM/DD/YYYY" className='input' />
                     <label htmlFor="" className='input'>Rooms:
                         <select name="rooms" id="rooms" className='ml-2'>
                             <option value="1">1</option>
