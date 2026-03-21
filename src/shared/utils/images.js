@@ -14,6 +14,8 @@ import fitness from '../../assets/fitness.png';
 import finedining from '../../assets/finedining.png';
 import nightclub from '../../assets/nightclub2.png';
 import grandhall from '../../assets/thegrandhall.png';
+import oceansuite from '../../assets/oceansuite.png';
+import aristocrats from '../../assets/aristocratsretreat.png'
 
 
-export const images = {cooking, garden, golfcamp, reception, solarium, winecellar, logo, logosinfondo, threshold, sky, airport, fitness, finedining, spa, nightclub,grandhall};
+export const images = {cooking, garden, golfcamp, reception, solarium, winecellar, logo, logosinfondo, threshold, sky, airport, fitness, finedining, spa, nightclub,grandhall, oceansuite, aristocrats};

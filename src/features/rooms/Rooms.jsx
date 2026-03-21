@@ -1,12 +1,11 @@
 import { useState, useEffect } from "react";
 import BookButton from '../../shared/components/BookButton';
 import rooms from "./data/rooms.json";
+import oceansuite from '../../assets/oceansuite.png'
+import aristocrats from '../../assets/aristocratsretreat.png'
 
 export default function Rooms() {
-    const images = [
-        "/src/assets/oceansuite.png",
-        "/src/assets/aristocratsretreat.png",
-    ];
+    const images = [oceansuite, aristocrats];
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -57,10 +56,7 @@ export default function Rooms() {
                     <button onClick={prev}>○</button>
                     <button onClick={next}>○</button>
                 </span>
-
             </div>
-
-
         </main>
     </>
 }
