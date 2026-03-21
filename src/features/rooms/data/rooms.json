@@ -1,5 +1,14 @@
 [
     {
-        "": ""
+        "room": "Ocean Suite",
+        "descrip": "A modern design retreat where absolute comfort and deep peace come together.",
+        "bath": "/src/assets/oceanbathroom.png",
+        "price": 4500
+    },
+    {
+        "room": "Aristocrat's Retreat",
+        "descrip": "Classic opulence and royal majesty with unforgettable garden views.",
+        "bath": "/src/assets/aristocratbathroom.png",
+        "price": 2500
     }
 ]

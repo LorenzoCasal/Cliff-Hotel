@@ -208,3 +208,7 @@ footer b {
   width: 100%;
   padding-top: 0.2px;
 }
+
+.shadows {
+  text-shadow: 12px 1px 30px #000000;
+}
